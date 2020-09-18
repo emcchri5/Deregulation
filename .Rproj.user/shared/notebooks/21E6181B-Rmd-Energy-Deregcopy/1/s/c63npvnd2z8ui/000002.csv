@@ -1,0 +1,17 @@
+"0","gen.annual.origin <- read_csv(""/Users/EthanMcChristian/Downloads/annual_generation_state.csv"")"
+"2","Missing column names filled in: 'X6' [6], 'X7' [7], 'X8' [8], 'X9' [9], 'X10' [10], 'X11' [11]"
+"2","Parsed with column specification:
+cols(
+  YEAR = [32mcol_double()[39m,
+  STATE = [31mcol_character()[39m,
+  `TYPE OF PRODUCER` = [31mcol_character()[39m,
+  `ENERGY SOURCE` = [31mcol_character()[39m,
+  `GENERATION (Megawatthours)` = [32mcol_number()[39m,
+  X6 = [33mcol_logical()[39m,
+  X7 = [33mcol_logical()[39m,
+  X8 = [33mcol_logical()[39m,
+  X9 = [33mcol_logical()[39m,
+  X10 = [33mcol_logical()[39m,
+  X11 = [33mcol_logical()[39m
+)
+"

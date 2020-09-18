@@ -1,0 +1,16 @@
+"0","revenue.annual.origin1 <- read_csv(""/Users/EthanMcChristian/Downloads/revenue_annual.csv"")"
+"2","1789 parsing failures.
+ row   col           expected  actual                                                   file
+2665 Other 1/0/T/F/TRUE/FALSE 29,088  '/Users/EthanMcChristian/Downloads/revenue_annual.csv'
+2666 Other 1/0/T/F/TRUE/FALSE 57,021  '/Users/EthanMcChristian/Downloads/revenue_annual.csv'
+2667 Other 1/0/T/F/TRUE/FALSE 47,681  '/Users/EthanMcChristian/Downloads/revenue_annual.csv'
+2668 Other 1/0/T/F/TRUE/FALSE 127,233 '/Users/EthanMcChristian/Downloads/revenue_annual.csv'
+2669 Other 1/0/T/F/TRUE/FALSE 460,196 '/Users/EthanMcChristian/Downloads/revenue_annual.csv'
+.... ..... .................. ....... ......................................................
+See problems(...) for more details.
+"
+"0","revenue.annual.origin <- revenue.annual.origin1 %>% "
+"0","  rename(ind = ""Industry Sector Category"") %>%"
+"0","  filter(ind %in% c(""Total Electric Industry"", ""Restructured Retail Service Providers"", ""Full-Service Providers"")) %>%"
+"0","  rename(""Industry Sector Category"" = ind)"
+"0","revenue.annual.origin"

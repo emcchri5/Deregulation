@@ -1,0 +1,5 @@
+"0","gen.annual.prod.origin <- gen.annual.origin %>%"
+"0","  rename(year = YEAR, state = STATE, prod = ""TYPE OF PRODUCER"", source = ""ENERGY SOURCE"", gen = ""GENERATION (Megawatthours)"") %>%"
+"0","  dplyr::select(year, state, prod, source, gen) %>%"
+"0","  spread(source, gen)"
+"0","gen.annual.prod.origin"

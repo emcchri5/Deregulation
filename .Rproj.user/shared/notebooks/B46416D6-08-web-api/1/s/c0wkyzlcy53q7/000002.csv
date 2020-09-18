@@ -1,0 +1,3 @@
+"0","fmt <- rmarkdown::default_output_format(knitr::current_input())$name"
+"2","Error in file.exists(x) : invalid 'file' argument
+"

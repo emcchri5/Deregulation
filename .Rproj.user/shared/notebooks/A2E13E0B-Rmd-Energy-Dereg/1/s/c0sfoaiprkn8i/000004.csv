@@ -1,0 +1,2 @@
+"0","ggplot(data = gen.annual.prod.total, mapping = aes(x = year, y = share.ren, color = prod)) +"
+"0","  geom_line()"

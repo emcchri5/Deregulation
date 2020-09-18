@@ -1,0 +1,3 @@
+"0","gen.annual.wide.ipput <- full_join(gen.annual.wide.ut, gen.annual.wide.ipp) %>%"
+"0","  filter(year >=1990)"
+"0","gen.annual.wide.ipput "

@@ -1,0 +1,2 @@
+"0","## Combine ""yr"", ""mnth"", and ""dy"" into one ""date"" column"
+"0","gdp %>% unite(date, c(""yr"", ""mnth"", ""dy""), sep = ""-"")"

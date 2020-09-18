@@ -1,0 +1,8 @@
+"0","gen.annual.wide.ipp <- gen.annual.prelong %>%"
+"0","  dplyr::select(year, state, source, ""Electric Generators, Independent Power Producers"") %>%"
+"0","  spread(source, ""Electric Generators, Independent Power Producers"") %>%"
+"0","  rename(coal = Coal, geothermal = Geothermal, hydro = `Hydroelectric Conventional`, natgas = `Natural Gas`, nuclear = Nuclear, other = Other, otherbio = `Other Biomass`, othergas = `Other Gases`, pet = Petroleum, pumped = `Pumped Storage`, solar = `Solar Thermal and Photovoltaic`, total = Total, wind = Wind, wood = `Wood and Wood Derived Fuels`) %>%"
+"0","  group_by(year, state) %>%"
+"0","  mutate(total.ren = sum(geothermal, hydro, pumped, solar, wind, wood, otherbio, na.rm= TRUE)) %>%"
+"0","  mutate(ind = ""Restructured Retail Service Providers"")"
+"0","gen.annual.wide.ipp"

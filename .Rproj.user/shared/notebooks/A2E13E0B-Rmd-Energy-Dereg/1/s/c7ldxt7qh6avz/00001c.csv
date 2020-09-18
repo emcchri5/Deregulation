@@ -1,0 +1,5 @@
+"0","gen.annual.prelong <- gen.annual %>%"
+"0","  select(year, state, producertype, source, gen) %>%"
+"0","  filter(producertype %in% c(""Electric Generators, Electric Utilities"", ""Electric Generators, Independent Power Producers"")) %>%"
+"0","  spread(producertype, gen)"
+"0","gen.annual"

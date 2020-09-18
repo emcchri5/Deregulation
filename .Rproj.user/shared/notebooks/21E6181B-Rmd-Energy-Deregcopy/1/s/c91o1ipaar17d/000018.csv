@@ -1,0 +1,4 @@
+"0","revenue.annual1 <- revenue.annual.origin %>%"
+"0","  rename(year = Year, state = State, ind = ""Industry Sector Category"", res.rev = Residential, comm.rev = Commercial, ind.rev = Industrial, trans.rev = Transportation, other.rev = Other, total.rev = Total) %>%"
+"0","  filter(ind %in% c(""Restructured Retail Service Providers"", ""Full-Service Providers""))"
+"0","revenue.annual1"

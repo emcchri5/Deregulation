@@ -1,0 +1,7 @@
+"0","gdp <- data.frame("
+"0","  yr = rep(2016, times = 4),"
+"0","  mnth = rep(1, times = 4),"
+"0","  dy = 1:4,"
+"0","  gdp = rnorm(4, mean = 100, sd = 2)"
+"0","  )"
+"0","gdp "

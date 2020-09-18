@@ -1,0 +1,2 @@
+"0","library(pacman)"
+"0","p_load(eia, usethis, EIAdata, jsonlite, rvest, tidyverse, httr, lubridate, hrbrthemes, janitor, jsonlite, listviewer, usethis, plotly, extrafont, showtext, ggimage, RColorBrewer, mfx, estimatr, fixest, sandwich, lmtest, AER, lfe, margins, vtable, microsynth)"

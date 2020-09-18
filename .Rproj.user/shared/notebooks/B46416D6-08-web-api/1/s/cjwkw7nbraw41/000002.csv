@@ -1,0 +1,6 @@
+"0","fred %>% "
+"0","  httr::content(""text"") %>%"
+"0","  jsonlite::fromJSON() %>%"
+"0","  listviewer::jsonedit(mode = ""view"")"
+"2","Error in eval(lhs, parent, parent) : object 'fred' not found
+"

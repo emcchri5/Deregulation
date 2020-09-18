@@ -1,0 +1,10 @@
+"0","gen.annual.prod.total <- gen.annual.prod %>%"
+"0","  group_by(year, prod) %>%"
+"0","  mutate(totalren = sum(geothermal, wind, solar, hydro, nuclear, na.rm = TRUE)) %>%"
+"0","  mutate(share.ren = totalren/total) %>%"
+"0","  select(year, total, totalren, share.ren, prod) %>%"
+"0","  distinct() %>%"
+"0","  mutate(total.nonren = total - totalren)"
+"2","Error in select(., year, total, totalren, share.ren, prod) : 
+  unused arguments (year, total, totalren, share.ren, prod)
+"

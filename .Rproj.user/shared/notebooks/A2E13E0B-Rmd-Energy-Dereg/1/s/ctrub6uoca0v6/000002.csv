@@ -1,0 +1,7 @@
+"0","gen.annual <- gen.annual.origin %>%"
+"0","  rename(year = YEAR) %>%"
+"0","  rename(state = STATE) %>%"
+"0","  rename(producertype = ""TYPE OF PRODUCER"") %>%"
+"0","  rename(source = ""ENERGY SOURCE"") %>%"
+"0","  rename(gen = ""GENERATION (Megawatthours)"")"
+"0","gen.annual"

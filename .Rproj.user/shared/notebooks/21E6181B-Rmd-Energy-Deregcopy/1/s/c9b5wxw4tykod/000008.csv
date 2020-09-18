@@ -1,0 +1,4 @@
+"0","gen.annual.prod <- gen.annual.prod.origin %>%"
+"0","  filter(state %in% c(""US-TOTAL"", ""US-Total"")) %>%"
+"0","  rename(coal = Coal, geothermal = Geothermal, hydro = `Hydroelectric Conventional`, natgas = `Natural Gas`, nuclear = Nuclear, other = Other, otherbio = `Other Biomass`, othergas = `Other Gases`, pet = Petroleum, pumped = `Pumped Storage`, solar = `Solar Thermal and Photovoltaic`, total = Total, wind = Wind, wood = `Wood and Wood Derived Fuels`)"
+"0","gen.annual.prod"
