@@ -1,0 +1,7 @@
+"0","dereg1 <- rbind(AL, AK, AZ, AR, CA, CO, CT, DE, FL, GA, HI, ID, IL, IN, IA, KS, KY, LA, ME, MD, MA, MI, MN, MS, MO, MT, NE, NV, NH, NJ, NM, NY, NC, ND, OH, OK, OR, PA, RI, SC, SD, TN, TX, UT, VT, VA, WV, WI, WY, DC)"
+"0","dereg1 <- dereg1 %>%"
+"0","  mutate(state.id = as.numeric(state.id)) %>%"
+"0","  mutate(renpercent = replace(renpercent, is.na(renpercent), 0)) %>%"
+"0","  as.data.frame(dereg1)"
+"0","dereg1 %>%"
+"0","  filter(renpercent >= .3)"

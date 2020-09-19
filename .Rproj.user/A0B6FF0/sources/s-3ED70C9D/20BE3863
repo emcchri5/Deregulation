@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1600440856371.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3332660182",
+    "id" : "20BE3863",
+    "lastKnownWriteTime" : 1600518087,
+    "last_content_update" : 1600518087313,
+    "path" : "~/Deregulation/Files/Rmd-Energy-Deregcopy.Rmd",
+    "project_path" : "Files/Rmd-Energy-Deregcopy.Rmd",
+    "properties" : {
+        "cursorPosition" : "578,35",
+        "last_setup_crc32" : "3ED70C9D8fce67e2",
+        "scrollLine" : "573"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
